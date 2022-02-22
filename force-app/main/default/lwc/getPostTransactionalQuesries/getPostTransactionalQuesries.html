@@ -1,0 +1,14 @@
+<template>
+    <lightning-card variant="narrow" icon-name="standard:Account">
+        <lightning-record-form record-id={recordId} object-api-name="Account" layout-type="Full" columns="2"
+            mode="view">
+        </lightning-record-form>
+    </lightning-card>
+    <lightning-card variant="base">
+        <template if:true={respdata}>
+            <lightning-datatable draft-values={draftValues} key-field="reference" data={respdata} columns={columns}
+                onsave={handlesave}>
+            </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>
