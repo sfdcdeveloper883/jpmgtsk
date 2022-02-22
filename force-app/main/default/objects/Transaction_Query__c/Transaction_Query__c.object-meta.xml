@@ -144,22 +144,24 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
-    <enableBulkApi>false</enableBulkApi>
+    <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>false</enableSharing>
-    <enableStreamingApi>false</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>Attendee</label>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Transaction Query</label>
     <nameField>
-        <label>Attendee Name</label>
-        <type>Text</type>
+        <displayFormat>TQ-{0000}</displayFormat>
+        <label>Transaction Query Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Attendees</pluralLabel>
+    <pluralLabel>Transaction Queries</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

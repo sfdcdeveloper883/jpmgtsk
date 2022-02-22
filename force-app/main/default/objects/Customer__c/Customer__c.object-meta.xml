@@ -143,29 +143,24 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
     <label>Customer</label>
     <nameField>
         <displayFormat>{0}</displayFormat>
-        <label>Customer #</label>
+        <label>Customer Name</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Customers</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>amount__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>checkNumber__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>customerNumber__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>paymentDate__c</customTabListAdditionalFields>
-    </searchLayouts>
+    <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

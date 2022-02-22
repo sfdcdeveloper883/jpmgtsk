@@ -153,12 +153,13 @@
     <enableSharing>false</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Attendee</label>
+    <label>Event - Speaker</label>
     <nameField>
-        <label>Attendee Name</label>
-        <type>Text</type>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>Event - Speaker Name</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Attendees</pluralLabel>
+    <pluralLabel>Event - Speakers</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

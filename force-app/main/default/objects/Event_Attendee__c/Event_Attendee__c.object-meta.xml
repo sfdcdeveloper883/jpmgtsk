@@ -143,24 +143,23 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Event Attendee</label>
     <nameField>
-        <displayFormat>ATT - {00000}</displayFormat>
-        <label>Attendee #</label>
-        <type>AutoNumber</type>
+        <label>Event Attendee Name</label>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Event Attendees</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

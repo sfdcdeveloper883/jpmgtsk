@@ -143,22 +143,22 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>true</enableActivities>
-    <enableBulkApi>false</enableBulkApi>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>true</enableReports>
+    <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>false</enableSharing>
-    <enableStreamingApi>false</enableStreamingApi>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Attendee</label>
+    <label>junction object</label>
     <nameField>
-        <label>Attendee Name</label>
+        <label>junction object Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Attendees</pluralLabel>
+    <pluralLabel>junction objects</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
